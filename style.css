@@ -1,0 +1,1306 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+
+
+
+/*    top hader section..................................................................*/
+
+
+
+.tophader-section{
+
+    background-color: #daac00;
+}
+.slicknav_menu{
+    display: none;
+}
+
+.tophader-section  .flex-colam1 img{
+    width: auto;
+    cursor: pointer;
+}
+
+
+.tophader-section .main-colam{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+.tophader-section  .flex-colam1{
+   width: 20%;
+}
+
+.tophader-section  .flex-colam2{
+width: 50%;
+padding-left: 4%;
+
+}
+
+.tophader-section  .flex-colam3{
+    width: 22%;
+  padding-left: 4%;
+    
+}
+
+
+.tophader-section ul{
+    list-style: none;
+    text-align: center;
+    
+}
+
+
+
+.tophader-section ul li{
+    display: inline-block;
+    margin-left: 20px;
+   
+    
+}
+
+
+.tophader-section a{
+
+    font-size: 29px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.tophader-section .colam{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.tophader-section input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 21px;
+    padding-left: 30px;
+    font-weight: 400;
+}
+
+.tophader-section input:focus{
+    outline: none;
+}
+
+
+ 
+
+.tophader-section .colam input{
+
+    background-color: #fcc302;
+}
+
+.tophader-section .buttons input{
+    background-color: #00bec9;
+    border-radius: (0 0 25% 25%);
+
+}
+
+::placeholder{
+
+    padding-left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.tophader-section .buttons{
+    position: relative;
+}
+
+
+.tophader-section .buttons::after{
+    content: '';
+    position: absolute;
+    background: url(./img/icone.png);
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 23px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+   
+
+/* dog section ..................................................................................................*/
+
+.dog-section img{
+     width: 100%;
+}
+
+.dog-section {
+     background-color: #fcc302;
+}
+
+.dog-section .container{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+     .dog-section .main-section{
+
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+     }
+
+
+      .dog-section  h2{
+        font-size: 66px;
+        font-weight: 600;
+        line-height: 76px;
+        color: #fff;
+     } 
+    
+     .dog-section p {
+        font-size: 29px;
+        font-weight: 400;
+        line-height: 33px;
+        margin-top: 29px;
+        margin-bottom: 56px;
+        color: #fff;
+    } 
+
+     .dog-section a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight:600;
+        border-radius: 5px;
+      
+     }
+
+     .dog-section .flex-colam{
+        margin-top: 95px;
+     }
+
+
+     
+
+     .dog-section .contact{
+
+        background-color: #00bec9;
+        color: #fff;
+        padding: 14px 18px;
+        transition: .4s;
+         border: 2px solid white;
+     }
+     .dog-section .contact:hover{
+         
+        color: #fff;
+        background-color: #fcc302;
+      
+    }
+     .dog-section .servis{
+
+
+        color: white;
+        padding: 14px 18px;
+        margin-left: 20px;
+        border: 2px solid #fff;
+        transition: .4s;
+     }
+     
+     .dog-section .servis:hover{
+
+        background-color: #00bec9;
+        color: white;
+      
+       
+     } 
+
+
+     /*  dog love..................................................................*/
+     .animal-love-section  img{
+        width: 100%;
+      
+     }
+
+
+       .animal-love-section .main-section{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       }
+
+   
+   
+       .animal-love-section .container {
+        padding-top: 105px;
+        padding-bottom: 141px;
+    }
+   .animal-love-section .main-section{
+   
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           column-gap: 80px;
+        }
+   
+        .animal-love-section h2 {
+            font-size: 49px;
+            font-weight: 600;
+            line-height: 55px;
+            color: #000;
+        }
+        .animal-love-section p {
+            font-size: 27px;
+            font-weight: 400;
+            margin-top: 43px;
+            margin-bottom: 62px;
+            line-height: 32px;
+            color: #313243;
+        }
+        .animal-love-section a{
+           text-decoration: none; 
+           font-size: 20px;
+           font-weight:600;
+           border-radius: 5px;
+         
+        }
+   
+        .animal-love-section .flex-colam{
+           margin-top: 60px;
+        }
+   
+   
+   
+       
+        
+       .animal-love-section .servis{
+   
+   
+           color: white;
+           padding: 14px 18px;
+           left: 0;
+           background-color: #fcc302;
+           transition: .4s;
+           border: 2px solid #fcc302;
+
+        }
+        
+        .animal-love-section .servis:hover{
+   
+            background-color: white;
+           color: #000;
+          
+          
+        }
+
+        /*services............................................................................................*/
+
+
+        .services-section {
+
+            background-color: #fcc302;
+
+        }
+
+        .services-section h2{
+            font-size: 75px;
+            font-weight: 700;
+            color: white;
+
+
+
+        }
+        .services-section .top-haber p{
+            font-size: 33px;
+            line-height: 38px;
+            font-weight: 400;
+            margin-top: 22px;
+            margin-bottom: 99px;
+        }
+
+        .services-section p{
+            font-size: 30px;
+            color: white;
+        }
+
+        .services-section .flex-colam h3 {
+            margin-top: 45px;
+            font-size: 37px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .services-section .flex-colam p {
+            font-size: 25px;
+            margin-top: 20px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+
+        .services-section img{
+            width: 100%;
+        }
+        .services-section .container {
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .services-section .main-colam{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 65px;
+        }
+    /*vatanari section....................................................................................*/
+
+    .vatenari-section img{
+        width: 100%;
+    }
+
+
+    .vatenari-section .main-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        }
+ 
+        .vatenari-section .dog-section img{
+         width: auto;
+       
+    }
+    
+    
+    .vatenari-section .container{
+        padding-top: 105px;
+        padding-bottom: 141px;
+        text-align: right;
+    }
+    
+    .vatenari-section .main-section{
+    
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            column-gap: 80px;
+         }
+    
+         .vatenari-section  h2{
+            font-size: 46px;
+            font-weight: 600;
+            line-height: 55px;
+            color: #000;
+         }
+         
+    
+         .vatenari-section  p{
+            font-size: 25px;
+            font-weight: 400;
+            margin-top: 43px;
+            margin-bottom: 62px;
+            line-height: 30px;
+            color: #313243;
+         }
+         .vatenari-section a{
+            text-decoration: none;
+            font-size: 20px;
+            font-weight:600;
+            border-radius: 5px;
+          
+         }
+    
+         .vatenari-section  .flex-colam{
+            margin-top: 60px;
+         }
+    
+         .vatenari-section  .servis{
+    
+    
+            color: white;
+            padding: 14px 18px;
+            left: 0;
+            background-color: #fcc302;
+            border: 2px solid #fcc302;
+            transition: .4s;
+         }
+         
+         .vatenari-section  .servis:hover{
+    
+             background-color: white;
+            color: #000;
+           
+           
+         }
+ 
+ 
+           
+         
+    
+ 
+
+
+        /* offer section,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+
+        .services-section {
+
+            background-color: #fcc302;
+
+        }
+
+        .services-section h2{
+            font-size: 75px;
+            font-weight: 700;
+            color: white;
+
+
+
+        }
+        .services-section .top-haber p{
+            font-size: 33px;
+            line-height: 38px;
+            font-weight: 400;
+            margin-top: 22px;
+            margin-bottom: 99px;
+        }
+
+        .services-section p{
+            font-size: 30px;
+            color: white;
+        }
+
+        .services-section .flex-colam h3 {
+            margin-top: 45px;
+            font-size: 37px;
+            color: white;
+            font-weight: 700;
+        }
+
+        .services-section .flex-colam p {
+            font-size: 25px;
+            margin-top: 20px;
+            line-height: 30px;
+            font-weight: 400;
+        }
+
+        .services-section img{
+            width: 100%;
+        }
+        .offer-section .container {
+            text-align: center;
+            padding-top: 80px;
+            padding-bottom: 80px;
+        }
+
+        .offer-section .main-colam{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 65px;
+        }
+
+
+        .offer-section {
+
+            background-color: #fcc302;
+
+        }
+        .offer-section h2 {
+            font-size: 75px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: white;
+            padding-top: 7px;
+        }
+
+      .offer-section .top-haber p {
+    color: #fff;
+    font-size: 33px;
+    line-height: 38px;
+    font-weight: 400;
+    margin-top: 22px;
+    margin-bottom: 99px;
+} 
+        
+        .services-section p{
+            font-size: 30px;
+            color: white;
+        }
+
+
+        .services-section, .offer-section img{
+            width: 100%;
+        } 
+        /* .offer-section .container {
+            text-align: center;
+            padding-top: 90px;
+            padding-bottom: 125px;
+         */
+
+      .offer-section .main-colam{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 65px;
+        }
+        .offer-section h3{
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+
+        .offer-section .dolar{
+            position: relative;
+            
+        }
+
+
+        .offer-section .dolar::after{
+            content: '';
+            position: absolute;
+            background-color: #fff;
+            height: 4px;
+            width: 95px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           
+            
+        }
+        .offer-section h3 {
+            font-size: 41px;
+            font-weight: 600;
+            color: #fff;
+            margin-bottom: 25px;
+            margin-top: 35px;
+        }
+        .offer-section .dolar1{
+          margin-left: 19px;
+        }
+
+.offer-section .bainow {
+    background-color: #00bec9;
+    padding: 8px 31px;
+    border-radius: 56px;
+    color: #fff;
+    border: 2px solid #00bec9;
+    transition: .4s;
+    font-size: 25px;
+    font-weight: 600;
+} }
+
+        .offer-section .bainow:hover{
+            color:#00bec9;
+            background-color: #fff;
+           
+           
+        }
+        .offer-section a{
+            text-decoration: none;
+       }*/     
+       
+   /*vetcare-team-section............................................................*/
+
+   .vetcare-team-section h2 {
+    font-size: 75px;
+    font-weight: 700;
+    color: #313243;
+   
+}
+        .vetcare-team-section .top-haber p {
+            color: #474855;
+            font-size: 33px;
+            line-height: 38px;
+            font-weight: 400;
+            margin-top: 22px;
+            margin-bottom: 99px;
+        }
+       
+        .vetcare-team-section img{
+            width: 100%;
+        }
+        
+        .vetcare-team-section .container {
+            text-align: center;
+            padding-top: 60px;
+            padding-bottom: 120px;
+        }
+
+     
+      .vetcare-team-section .main-colam{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 40px;
+        }
+        .vetcare-team-section .top-haber h2 {
+            font-size: 64px;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        .vetcare-team-section .flex-colam h3 {
+            font-size: 29px;
+            font-weight: 700;
+            margin-top: 40px;
+        }
+        .vetcare-team-section .flex-colam p {
+            font-size: 25px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .vetcare-team-section .flex-colam i{
+            height: 40px;
+            width: 40px;
+            line-height: 40px;
+            border-radius: 50%;
+            color: #fff;
+            font-size: 25px;
+            background-color: #fcc302;
+            transition: .4s;
+            margin-left: 10px;
+        }
+        
+        .vetcare-team-section i:hover{
+          
+          background-color:#00bec9;
+          
+        }
+
+
+
+        /*icon section,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,*/
+
+        .help-section{
+
+            background: url(./img/help-bg.jpg);
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+        .help-section .container {
+            text-align: center;
+            padding-bottom: 100px;
+        }
+
+        .help-section a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 41px;
+            font-weight: 500;
+        }
+
+        
+        .help-section h2{
+          margin-top: 30px;
+            font-size: 41px;
+            font-weight: 500;
+            color: #fff;
+        }
+
+        .help-section img{
+            width: auto;
+        }
+        .help-section .main-colam{
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 40px;
+          
+           
+        }
+
+        .help-section .flex-colam{
+
+            margin-top: 109px;
+        }
+
+ 
+        .help-section h3{
+            font-size: 37px;
+            font-weight: 700;
+            color: #fff;
+            
+        }
+
+
+        /* sirvuces tim section...............................................................................*/
+     
+        .service-tim-section{
+            background-color: #fafafa;
+        }
+
+        .service-tim-section  .top-hader{
+
+            text-align: center;
+        }
+        
+        .service-tim-section h2{
+            font-size: 75px;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color:#313243;
+        }
+
+        .service-tim-section .top-hader p {
+            color: #474855;
+            font-size: 33px;
+            line-height: 39px;
+            font-weight: 400;
+            margin-top: 22px;
+            margin-bottom: 99px;
+        }
+        .service-tim-section .flex-colam p{
+            font-size: 16px;
+            color: #313243;
+            font-weight: 400;
+            line-height: 21px;
+            padding: 20px 0;
+           
+        }
+
+        .service-tim-section img{
+            width: 100%;
+        }
+        
+      .service-tim-section .container{
+        
+       
+        padding-top: 105px;
+        padding-bottom: 120px;
+       
+      }
+      .service-tim-section .main-colam{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 40px;
+           
+        }
+      
+        .service-tim-section .modal{
+
+          
+           border-left: 1px solid #d6d6d6;
+           border-right: 1px solid #d6d6d6;
+           border-bottom: 1px solid #d6d6d6;
+          padding: 30px 25px;
+           
+        }
+        .service-tim-section .modal2{
+            border: none;
+            
+            background-color: #fff;
+            padding: 30px 25px;
+
+        }
+
+  
+        .service-tim-section  .flex-colam h2{
+
+            font-size: 25px;
+            font-weight: 600;
+            line-height: 30px;
+           
+        }
+        
+        .service-tim-section  .flex-colam h3{
+
+            font-size: 16px;
+            font-weight: 400;
+             transition: .4s;
+            color: #00bec9;
+            text-transform: uppercase;
+            
+        }
+
+        .service-tim-section  .flex-colam h3:hover{
+            color: #daac00;
+        }
+
+        
+        .service-tim-section a {
+            text-decoration: none;
+            color: #00bec9;
+            font-size: 20px;
+            font-weight: 500;
+            margin-top: 10px;
+            padding: 8px 0;
+            transition: .4s;
+        }
+        
+        
+        .service-tim-section a:hover{
+
+            color: #fcc302;
+        }
+        
+        
+             /*futter section.................................................................................................*/
+         
+             
+        .futter-section{
+            background-color: #343434;
+        }
+
+        .futter-section .container{
+            padding-top: 80px;
+            padding-bottom: 100px;
+        }
+
+        .futter-section.flex-colam2{
+            text-align: right;
+        }
+        .futter-section .main-colam{
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr;
+            column-gap: 50px;
+        }
+
+
+        .futter-section a{
+            text-decoration: none;
+            color: white;
+        }
+        .futter-section h2 {
+            font-size: 37px;
+            font-weight: 600;
+            margin-top: 10px;
+            color: #fff;
+            line-height: 80px;
+        }
+        .futter-section h3 a{
+            font-size: 25px;
+            line-height: 42px;
+            font-weight: 400;
+            transition: .4s;
+        }
+
+        .futter-section h3 a:hover{
+            color: #daac00;
+        }
+        .futter-section p {
+            font-size: 25px;
+            padding-top: 10px;
+            color: #fff;
+            font-weight: 400;
+        }
+    
+
+     .futter-section .flex-colam:last-child{
+        text-align: right;
+     }
+
+     
+    .futter-section .sub-colam{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+   }
+
+   .futter-section  input{
+    width: 100%;
+    height: 65px;
+    background-color:#fcc302;
+    border: none;
+    font-size: 30px;
+    color: white;
+    padding-left: 30px;
+
+   }
+
+   .futter-section  input:focus{
+    outline: none;
+   }
+
+   .futter-section .sub-colam{
+   margin-top: 30px;
+   margin-bottom: 30px;
+   }
+
+   .futter-section .colam input{
+    background-color: #fcc302;
+   }
+
+   .futter-section ::placeholder{
+    padding-left: 50px;
+    font-size: 35px;
+   }
+
+   .futter-section .colam2 input{
+    background-color: #00bec9;
+   }
+
+   .futter-section .colam2{
+    position: relative;
+   }
+
+   .futter-section .colam2::after{
+    content: '';
+    position: absolute;
+    background: url(./img/telegram.png);
+    background-repeat: no-repeat;
+    height: 32px;
+    width: 33px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+   }
+
+
+       .futter-section i{
+        height: 30px;
+        width: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+        color: #fcc302;
+        margin-left: 10px;
+        font-size: 30px;
+        padding: 10px 10px;
+        transition: .4s;
+        background-color: #fff;
+        margin-left: 15px;
+        
+       }
+       .futter-section i:hover{
+        
+        background-color: #fcc302;
+        color: #fff;
+       
+       
+       }
+
+
+
+
+       /* media -css cod*/
+       @media only screen and (max-width: 1080px) {
+       .tophader-section a {
+        font-size: 27px;
+       
+    }
+    .vatenari-section .flex-colam{
+        margin-top: 0;
+    }
+    .vatenari-section p {
+        margin-top: 14px;
+        margin-bottom: 52px;
+    }
+    .vatenari-section .main-section {
+        column-gap: 49px;
+    }
+}
+       @media only screen and (max-width: 989px) {
+        .tophader-section .flex-colam3 {
+            width: 44%;
+            padding-left: 23%;
+        }
+
+        .slicknav_menu{
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 25px;
+            background: transparent;
+        }
+
+        .slicknav_menu .slicknav_menutxt{
+            display: none;
+        }
+        .slicknav_menu .slicknav_icon{
+            display: none;
+        }
+
+        .slicknav_menu .slicknav_open{
+            background: transparent;
+        }
+        .slicknav_menu .slicknav_open{
+            background: transparent;
+        }
+        .slicknav_menu .slicknav_open::after {       
+            position: absolute;
+           content: '\f2d3';
+           top: 57%;
+           font-family: fontawesome;
+           transform: translateY(-50%);
+           right: 30px;
+           font-size: 41px;  
+           padding-top: 16px;
+           
+        }
+       .slicknav_nav{
+            padding-right: 245px;
+            background-color: #00bec9;;
+            margin-top: 73px;
+            height: 100vh;
+  }
+  .slicknav_nav a {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  .slicknav_nav li{
+    padding-top: 15px;
+  }
+        .slicknav_menu .slicknav_collapsed::after {       
+            position: absolute;
+           content: '\f0c9';
+           top: 57%;
+           font-family: fontawesome;
+           transform: translateY(-50%);
+           right: 30px;
+           font-size: 41px;  
+           padding-top: 16px;
+        }
+        
+
+         
+
+        .slicknav_menu .slicknav_collapsed {
+            background: transparent;
+            position: relative;
+        }
+        .tophader-section .flex-colam2 {
+           
+           display: none;
+        }
+        .dog-section .main-section {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+        
+        .dog-section img {
+           padding: 0;
+            margin-top: 96px;
+        }
+        .dog-section .contact {
+            padding: 10px 15px;
+        }
+        .dog-section .servis {
+            padding: 10px 15px;
+        }
+        .animal-love-section .main-section {
+            grid-template-columns: 1fr;
+        }
+        .animal-love-section .main-section {
+            grid-template-columns: 1fr;
+        }
+        .animal-love-section .servis {
+            padding: 10px 15px;
+        }
+        .animal-love-section .rite-coalam {
+            margin-top: 96px;
+        }
+        row-gap: 65px;
+        .services-section .flex-colam{
+            margin-bottom: 91px;
+        }
+        .services-section .flex-colam:last-child{
+            margin-bottom: 0;
+        }
+        .vatenari-section .main-section {
+            grid-template-columns: 1fr;
+            text-align: center;
+          
+      }
+      .vetcare-team-section .main-colam {
+       
+        grid-template-columns:  1fr;
+        padding-bottom: 79px;
+        row-gap: 70px;
+    }
+    .help-section .main-colam {
+        grid-template-columns:  1fr;
+        padding-bottom: 79px;
+    }
+    .service-tim-section .main-colam {
+        grid-template-columns:  1fr;
+        row-gap: 65px;
+    }
+    .services-section .main-colam {
+        grid-template-columns: 1fr;
+        row-gap: 65px;
+    }
+    .animal-love-section .container {
+        padding-bottom: 120px;
+    }
+    .offer-section .main-colam {
+        grid-template-columns: 1fr;
+        row-gap: 70px;
+    }
+    .animal-love-section .container {
+        padding-bottom: 80px;
+    }
+
+      
+}
+
+
+@media only screen and (max-width: 600px) {
+    .animal-love-section .container {
+       text-align: center;
+    }
+    .animal-love-section .container {
+        padding-top: 48px;
+    }
+    .futter-section .main-colam {
+       
+        grid-template-columns:  1fr;
+        row-gap: 50px;
+        text-align: center;
+    }
+    .futter-section .flex-colam:last-child {
+        text-align: center;
+    }
+    .vetcare-team-section h2 {
+        font-size: 46px;
+        line-height: 53px;
+    }
+    .vatenari-section h2 {
+        font-size: 39px;
+        line-height: 52px;
+    }
+    .vetcare-team-section .container {
+        text-align: center;
+         padding-bottom: 12px; 
+    }
+    .service-tim-section h2 {
+        font-size: 63px;
+        line-height: 67px;
+    }
+    .vatenari-section .container {
+        padding-top: 105px;
+    }
+    .services-section h2 {
+        font-size: 61px;
+        line-height: 70px;
+        margin-bottom: 44px;
+    }
+    .vetcare-team-section .container {
+        margin-top: -119px;
+    }
+    .dog-section h2 {
+        font-size: 45px;
+        line-height: 50px;
+       
+    }
+    .dog-section .container {
+        padding-top: 0px;
+       
+    }
+    .dog-section .contact {
+        padding: 9px 9px;
+    }
+    .dog-section .servis{
+        padding: 9px 9px; 
+        margin-left: 4px; 
+    }
+    .tophader-section .flex-colam1 {
+        width: 60%;
+    }
+    .tophader-section .flex-colam3 {
+        width: 100%;
+       padding-left: 0;
+    }
+    .animal-love-section .container {
+        padding-top: 12px;
+    }
+    .animal-love-section .container {
+        padding-bottom: 80px;
+    }
+    .animal-love-section .container {
+	padding-bottom: 80px;
+}
+
+    .slicknav_nav {
+        margin-top: 123px;
+    }
+    .offer-section h2 {
+        font-size: 56px;
+         padding-top: 0px;
+    }
+    .vatenari-section h2 {
+        padding-top: 50px;
+    }
+    .vatenari-section p {
+        margin-top: 26px;
+        margin-bottom: 54px;
+    }
+    .vetcare-team-section .container {
+        margin-top: -27px;
+    }
+    .vetcare-team-section .top-haber p {
+        margin-bottom: 67px;
+    }
+    .help-section .main-colam {
+        padding-bottom: 0px;
+    }
+    .service-tim-section .top-hader p {
+        margin-bottom: 56px;
+    }
+    .service-tim-section .container {
+        padding-bottom: 67px;
+    }
+    .services-section .top-haber p {
+        margin-bottom: 50px;
+    }
+    .futter-section .main-colam {
+        row-gap: 0px;
+      
+    }
+    .futter-section h3 a {
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .futter-section .container {
+        padding-top: 30px;
+        padding-bottom: 77px;
+    }
+    .futter-section h2 {
+        margin-top: 28px;
+      
+    }
+    .futter-section h2 {
+       
+       line-height: 50px; 
+    }
+
+   
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    .animal-love-section .container {
+	padding-top: 12px;
+}
+   .container{
+        padding: 0 20px;
+   }
+   .dog-section p {
+    padding-right: 20px;
+  }
+  .dog-section img {
+    width: 60%;
+
+  }
+  .animal-love-section h2 {
+	font-size: 40px;
+	line-height: 38px;
+	
+}
+.slicknav_nav {
+	padding-right: 190px;
+	
+}
+  }   
